@@ -6,7 +6,7 @@ const Profile = () => {
   const [user, setuser] = useState([])
 
   const User = () => {
-    fetch('https://639935b029930e2bb3cc9fb8.mockapi.io/rmad101/users/13')
+    fetch('https://639935b029930e2bb3cc9fb8.mockapi.io/rmad101/users/14')
       .then(res => res.json())
       .then(data => setuser(data))
   }
