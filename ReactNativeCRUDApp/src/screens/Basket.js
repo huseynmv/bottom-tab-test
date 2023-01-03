@@ -11,7 +11,7 @@ const Basket = () => {
     fetch('https://639935b029930e2bb3cc9fb8.mockapi.io/rmad101/baskets')
       .then(res => res.json())
       .then(data =>
-        data.map(item => {
+        data.forEach(item => {
           if (item.userId == 2) {
             setbaskteitems(item);
           }
